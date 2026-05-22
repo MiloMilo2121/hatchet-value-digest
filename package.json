@@ -1,0 +1,22 @@
+{
+  "name": "poc-hatchet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "demo": "ts-node src/index.ts --demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hatchet-dev/typescript-sdk": "^1.22.3",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
