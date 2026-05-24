@@ -56,7 +56,7 @@ One compute task is intentionally made to fail once, to show Hatchet's automatic
 ======================================================
 ```
 
-![Hatchet run — fan-out, compute-acme failing and being retried, aggregate fanning in](docs/dashboard-run.png)
+![Hatchet run — fan-out, compute-acme failing and being retried, aggregate fanning in](docs/dashboard-run.png?v=2)
 
 *Waterfall view: fetch-users runs first, then compute-acme and compute-globex fan out in parallel. compute-acme fails on purpose (red) and Hatchet retries it automatically; aggregate-digest waits for both (fan-in).*
 
